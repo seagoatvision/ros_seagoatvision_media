@@ -82,7 +82,8 @@ class ROS(MediaStreaming):
 
     def close(self):
         MediaStreaming.close(self)
-        self.image_sub.unregister()
-        self.image_sub = None
+        if self.image_sub:
+            self.image_sub.unregister()
+            self.image_sub = None
         self.image = None
         return True
