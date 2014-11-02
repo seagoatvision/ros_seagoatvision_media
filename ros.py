@@ -16,10 +16,10 @@
 #
 #    You should have received a copy of the GNU General Public License
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-from SeaGoatVision.server.media.media_streaming import MediaStreaming
-from SeaGoatVision.commons.param import Param
-from SeaGoatVision.server.core.configuration import Configuration
-from SeaGoatVision.commons import log
+from seagoatvision.server.media.media_streaming import MediaStreaming
+from seagoatvision.commons.param import Param
+from seagoatvision.server.core.configuration import Configuration
+from seagoatvision.commons import log
 
 import roslib
 
